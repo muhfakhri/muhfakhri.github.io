@@ -17,7 +17,7 @@ I am an Engineer and Researcher at the **National Research and Innovation Agency
 ## Technical Skills & Toolchain
 * **Software & Programming:** Python, C++, C# (.NET WinForms), MATLAB, GNU Radio.
 * **EDA & Simulation:** ADS, KiCad.
-* **SDR & Test Instrumentation:** Ettus USRP B210, Nuand BladeRF 2.0 micro, HackRF One, Rohde & Schwarz Spectrum Analyzers, Keysight Signal Generators, Yokogawa Digital Oscilloscopes.
+* **SDR & Test Instrumentation:** USRP B210, BladeRF 2.0 micro, HackRF One, Spectrum Analyzers, Signal Generators, Digital Oscilloscopes.
 
 ---
 *Feel free to explore my [publications](/publications/) and [CV](/cv/), or reach out via the contact links in the sidebar for research collaboration and technical discussions.*
