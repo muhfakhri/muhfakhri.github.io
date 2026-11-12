@@ -6,31 +6,48 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">You can also find my complete list of articles and patents on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+<h2>Journal Articles</h2>
+<hr />
+<ol>
+  <li style="margin-bottom: 12px;">
+    K. Rahardiyanti, A. Pascawati, M. Z. Rahmat, S. D. Harsono, and <strong>M. Fakhri</strong>, "Dual-frequency conformal series feed antenna for telemetry applications," <em>Revue Roumaine des Sciences Techniques—Série Électrotechnique et Énergétique</em>, 2026.
+  </li>
+  <li style="margin-bottom: 12px;">
+    A. Pascawati, <strong>M. Fakhri</strong>, A. I. Wahdiyat, I. E. Putro, S. D. Harsono, M. Z. Rahmat, <em>et al.</em>, "Conformal microstrip antennas on the rocket cylinder," <em>Progress in Electromagnetics Research M</em>, vol. 126, pp. 1–10, 2024.
+  </li>
+  <li style="margin-bottom: 12px;">
+    <strong>M. Fakhri</strong>, M. Z. Rahmat, A. Pascawati, S. D. Harsono, <em>et al.</em>, "Dual-mode antenna tracking system for rocket launch applications," <em>Jurnal Rekayasa Elektrika</em>, vol. 20, no. 2, 2024.
+  </li>
+  <li style="margin-bottom: 12px;">
+    M. Z. Rahmat, R. A. Duhri, <strong>M. Fakhri</strong>, G. I. Islami, <em>et al.</em>, "Design and validation of avionics system on 122 mm rocket caliber," <em>International Review of Aerospace Engineering (IREASE)</em>, vol. 17, no. 6, pp. 228–239, 2024.
+  </li>
+  <li style="margin-bottom: 12px;">
+    A. Pascawati, K. Rahardiyanti, <strong>M. Fakhri</strong>, A. Riyadl, E. Artono, and M. R. K. Aziz, "Analisis kinerja antena blade 2.4 GHz hasil fabrikasi untuk roket," <em>Risenologi</em>, vol. 7, no. 2, pp. 16–24, 2022.
+  </li>
+  <li style="margin-bottom: 12px;">
+    A. E. U. Salam, R. S. O. Sadjad, F. A. Samman, and <strong>M. Fakhri</strong>, "Online hydraulic parameter monitoring system in water distribution network," <em>ICIC Express Letters, Part B: Applications</em>, vol. 10, no. 3, 2019.
+  </li>
+</ol>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<h2>Conference Proceedings</h2>
+<hr />
+<ol>
+  <li style="margin-bottom: 12px;">
+    <strong>M. Fakhri</strong> and J. Suryana, "Design of frequency scanning narrow wall slotted waveguide for mortar locating radar," in <em>Proc. International Electronics Symposium (IES)</em>, 2025, pp. 349–353.
+  </li>
+  <li style="margin-bottom: 12px;">
+    <strong>M. Fakhri</strong>, "Study of UAV mobility pattern on 5G downlink communications," in <em>Proc. 18th International Conference on Telecommunication Systems, Services, and Applications (TSSA)</em>, 2024.
+  </li>
+  <li style="margin-bottom: 12px;">
+    Kurdianto, M. Z. Rahmat, G. I. Islami, Rustamaji, <strong>M. Fakhri</strong>, K. Rahardiyanti, <em>et al.</em>, "Analysis of the effects of composite materials on the rocket nosecone on VSWR value of 900 MHz antenna frequency," in <em>Proc. 3rd International Conference on Innovative Research in Applied Science, Engineering and Technology (IRASET)</em>, 2023.
+  </li>
+  <li style="margin-bottom: 12px;">
+    A. Pascawati, <strong>M. Fakhri</strong>, M. Z. Rahmat, I. E. Putro, S. D. Harsono, <em>et al.</em>, "Conformal microstrip rectangular patch array 8×1 antenna for rocket," in <em>Proc. 9th International Seminar on Aerospace Science and Technology (ISAST)</em>, 2022.
+  </li>
+  <li style="margin-bottom: 12px;">
+    A. Pascawati, K. Rahardiyanti, <strong>M. Fakhri</strong>, A. Riyadl, E. Artono, and M. R. K. Aziz, "Blade antenna 2.4 GHz for rocket applications," in <em>Proc. International Conference on Computer System, Information Technology, and Electrical Engineering (COSITE)</em>, 2021.
+  </li>
+</ol>
