@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Engineer and Researcher at the **Research Center for Rocket Technology (Pusat Riset Teknologi Roket)** at the **National Research and Innovation Agency (BRIN)**, Indonesia. 
-
-My research and engineering work focus on the design, simulation, and implementation of aerospace telemetry systems, software-defined radio (SDR) architectures, RF front-end hardware, and tracking systems for sounding rockets. 
+I am an Engineer and Researcher at the **National Research and Innovation Agency (BRIN)**, Indonesia. My research and engineering work focus on the design, simulation, and implementation of aerospace telemetry systems, software-defined radio (SDR) architectures, RF front-end hardware, and tracking systems for sounding rockets. 
 
 ## Research Interests
 * Aerospace Telemetry & SDR Systems
